@@ -175,6 +175,9 @@
     		<sonar.host.url>
       			http://ec2-18-188-16-13.us-east-2.compute.amazonaws.com:9000/
     		</sonar.host.url>
+			</sonar.login>
+			    ee6b3cb8d6b215e59f8a328459f4b10c0802af0a
+			</sonar.login>
    		</properties>
   		</profile>
 	</profiles>
