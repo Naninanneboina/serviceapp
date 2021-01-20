@@ -176,35 +176,4 @@
    		</properties>
   		</profile>
 	</profiles>
-	
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-releases</id>
-            <name>Spring Releases</name>
-            <url>https://repo.spring.io/libs-release</url>
-        </pluginRepository>
-    </pluginRepositories>
-	<build> 
-    	 <pluginManagement>
-           <plugins>
-             <plugin>
-               <groupId>org.codehaus.mojo</groupId>
-               <artifactId>sonar-maven-plugin</artifactId>
-               <version>2.7.1</version>
-             </plugin>
-          </plugins>
-         </pluginManagement>
-        </build>
-	<distributionManagement>
-       <!-- <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://xxxxxxxxxxxxx:8081/repository/xxxxxxxxx/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://xxxxxxxxxxxxx:8081/repository/xxxxxxxxx/</url>
-        </snapshotRepository>-->
-    </distributionManagement>
 </project>
