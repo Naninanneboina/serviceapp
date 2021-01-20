@@ -165,13 +165,8 @@
     </repositories>
 	<!-- Sonar configurations for Code Quality-->
 	<profiles>
-  		<profile>
-   		<id>sonar</id>
-   			<activation>
-    			<activeByDefault>true</activeByDefault>
-   			</activation>
+    		<profile>
    		<properties>
-   		<!-- Optional URL to server. Default value is http://localhost:9000 -->
     		<sonar.host.url>
       			http://ec2-18-188-16-13.us-east-2.compute.amazonaws.com:9000/
     		</sonar.host.url>
