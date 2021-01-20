@@ -173,6 +173,8 @@
 			<sonar.login>
 			    ee6b3cb8d6b215e59f8a328459f4b10c0802af0a
 			</sonar.login>
+			<sonar.login>admin</sonar.login>
+			<sonar.password>admin</sonar.password>
    		</properties>
   		</profile>
 	</profiles>
