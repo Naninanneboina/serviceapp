@@ -175,6 +175,7 @@
                 <sonar.host.url>
                   http://3.16.47.93:9000
                 </sonar.host.url>
+		    <sonar.login>1a901a9c46a6cad5e8764a1f6e4e82b933a47714</sonar.login>
             </properties>
         </profile>
      </profiles>
