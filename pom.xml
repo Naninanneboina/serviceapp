@@ -164,18 +164,23 @@
         </repository>
     </repositories>
 	<!-- Sonar configurations for Code Quality-->
-	<profiles>
-    		<profile>
-   		<properties>
-    		<sonar.host.url>
-      			http://18.188.16.13:9000/
-    		</sonar.host.url>
-			<sonar.login>
-			    ee6b3cb8d6b215e59f8a328459f4b10c0802af0a
-			</sonar.login>
-			<sonar.login>admin</sonar.login>
-			<sonar.password>admin</sonar.password>
-   		</properties>
-  		</profile>
-	</profiles>
+	<settings>
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>
+                  http://http://3.16.47.93:9000
+                </sonar.host.url>
+            </properties>
+        </profile>
+     </profiles>
+</settings>
 </project>
